@@ -1,0 +1,17 @@
+{
+  "name": "finora-demo",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Finora — educational fintech demo platform (simulated accounts only, not a real bank)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "nodemailer": "^6.10.1",
+    "pg": "^8.23.1"
+  }
+}
